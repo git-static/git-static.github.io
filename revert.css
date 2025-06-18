@@ -5,6 +5,7 @@
     --bg-base-tertiary: var(--background-tertiary);
     --custom-channel-members-bg: var(--background-secondary);
     --background-mod-subtle: var(--background-modifier-hover);
+    --background-floating: rgba(35, 35, 35, 0.96);
     // --bg-brand: var(--blurple);
     --modal-footer-background: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
     --checkbox-background-checked: var(--blurple);
