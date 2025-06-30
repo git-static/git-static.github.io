@@ -278,7 +278,7 @@
         background-color: var(--background-secondary);
     }
     .wrapper__4e6ce {
-        background-color: var(--background-tertiary);
+        // background-color: var(--background-tertiary);
     }
     .header_c0e32c {
         background-color: var(--background-secondary);
@@ -295,7 +295,7 @@
     }
     /* channel menus */
     .header__45690 {
-        background: var(--background-tertiary);
+        // background: var(--background-tertiary);
         border-bottom: 2px solid var(--background-modifier-accent);
     }
     .messagesPopoutWrap__45690 {
@@ -304,7 +304,7 @@
         max-height: 91vh !important;
     }
     .messageGroupWrapper__45690 {
-        border: 1px solid var(--background-tertiary);
+        // border: 1px solid var(--background-tertiary);
         border-radius: 4px;
         -webkit-user-select: none;
         background: var(--background-primary);
@@ -459,7 +459,7 @@
     }
     .container_a45028 {
         border: none;
-        background-color: var(--background-tertiary);
+        // background-color: var(--background-tertiary);
     }
     .search__49676 {
         margin: 0 8px;
@@ -484,12 +484,12 @@
         background: var(--bg-overlay-3, var(--background-primary));
     }
     .container_fea832 {
-        background-color: var(--background-tertiary);
+        // background-color: var(--background-tertiary);
         border-radius: 4px;
         border: none;
     }
     .searchResult__02a39 {
-        border: solid 1px var(--background-tertiary);
+        // border: solid 1px var(--background-tertiary);
     }
     /* dropdowns */
     .lookFilled__3f413.select__3f413 {
@@ -725,13 +725,13 @@
         line-height: 1.125rem;
         text-indent: 0;
         background: var(--background-secondary) !important;
-        border: 1px solid var(--background-tertiary) !important;
+        // border: 1px solid var(--background-tertiary) !important;
     }
     .markup__75297 code.inline {
         font-family: var(--font-code) !important;
     }
     .embedFull__623de code.inline {
-        background: var(--background-tertiary) !important;
+        // background: var(--background-tertiary) !important;
     }
 
     /* discord logo */
@@ -1074,10 +1074,13 @@
 
     /* ping icon */
     .lowerBadge_cc5dd2 {
-        border: 5px solid var(--background-tertiary);
+        // border: 5px solid var(--background-tertiary);
         border-radius: 50%;
         margin-bottom: -2px;
-        margin-right: 0px;
+        margin-right: -0px;
+    }
+    .upperBadge_cc5dd2 {
+        margin-right: -0px;
     }
 
     /* voice channel user count */
@@ -1243,7 +1246,7 @@
         position: fixed;
         gap: unset;
         justify-content: center;
-        top: -1px;
+        top: 0px;
         right: 0px;
         z-index: 3001;
         -webkit-app-region: no-drag !important;
@@ -1258,7 +1261,7 @@
         border: unset;
     }
     .systemBar_c38106 {
-        background-color: var(--background-tertiary);
+        // background-color: var(--background-tertiary);
         min-height: 22px;
         .winButtons_c38106 {
             position: fixed;
@@ -1273,7 +1276,7 @@
 
 .base_c48ade .sidebar_c48ade > .guilds_c48ade {
     width: 80px;
-    background: var(--background-tertiary);
+    // background: var(--background-tertiary);
     .scroller_ef3116 {
         padding-top: 2px;
         > div[style]:not([class]) {
