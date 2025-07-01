@@ -307,7 +307,7 @@
         // border: 1px solid var(--background-tertiary);
         border-radius: 4px;
         -webkit-user-select: none;
-        background: var(--background-primary);
+        // background: var(--background-primary);
         margin-right: unset;
     }
     .searchHeader_f3b986 {
@@ -914,6 +914,7 @@
             margin-left: unset;
         }
         .attachButton__0923f {
+            margin-right: 0px;
             // height: 40px;
             padding: 13px 16px;
         }
