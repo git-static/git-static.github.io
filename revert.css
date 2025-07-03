@@ -1,5 +1,6 @@
 .theme-dark:not(html.custom-theme-background, :has(#clientThemeVars)) {
     --background-primary: var(--background-base-low);
+    --background-secondary: var(--background-base-lower);
     // --background-base-lowest: var(--background-secondary);
     --bg-base-tertiary: var(--background-tertiary);
     --custom-channel-members-bg: var(--background-secondary);
