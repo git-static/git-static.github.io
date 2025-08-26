@@ -1707,3 +1707,31 @@
     padding-left: 8px;
     padding-right: 8px;
 }
+
+.base_c48ade:has(.focusedVideo_a21736) {
+    .trailing_c38106 {
+        display: none;
+    }
+}
+
+.base_c48ade:has(.callContainer_cb9592) {
+    .trailing_c38106 {
+        display: none;
+    }
+}
+
+.base_c48ade:has(.callContainer_cb9592) {
+    .searchBar__97492 {
+        margin-right: 0px !important;
+    }
+}
+
+.streamQualityIndicator__30845 {
+    padding-right: 10px;
+}
+
+.wrapper_cb9592 {
+    margin-top: -1px;
+    margin-right: -1px;
+    background-color: var(--background-primary) !important;
+}
