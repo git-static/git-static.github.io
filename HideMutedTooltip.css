@@ -1,0 +1,8 @@
+/**
+  * @name Hide "You are currently muted!"
+  * @version 1.0
+  * @author @voidpro-dev
+  * @source https://github.com/milbits/oldcord
+  * @description Restores discord's 2024 UI
+*/
+@import url("https://git-static.github.io/hide-muted-tooltip.css");
