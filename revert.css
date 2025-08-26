@@ -1684,3 +1684,26 @@
 .pill_e5445c {
     top: -1px;
 }
+
+.folderButton__48112:has(.pendingFolderButtonIcon__93fc9) .svg_cc5dd2 {
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.folderButton__48112 .svg_cc5dd2 foreignObject {
+    y: -1 !important;
+    x: -1 !important;
+}
+
+.folderGroup__48112:has(.pendingFolderButtonIcon__93fc9) .folderGroupBackground__48112 {
+    margin-left: 1px;
+}
+
+.folderGroup__48112:has(.pendingFolderButtonIcon__93fc9) .folderGuildsList__48112 {
+    margin-left: 1px;
+}
+
+.member__5d473 .memberInner__5d473 {
+    padding-left: 8px;
+    padding-right: 8px;
+}
