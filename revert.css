@@ -1753,10 +1753,6 @@
     margin-top: 81px;
 }
 
-.channelBottomBarArea_f75fb0 {
-    padding-bottom: 20px;
-}
-
 .attachWrapper__0923f {
     padding: 0px !important;
 }
@@ -1771,4 +1767,21 @@
 
 .text_b88801 {
     margin-left: 8px !important;
+}
+
+.align-chat-input .form_f75fb0 {
+    margin-top: -4px;
+}
+
+.chatGradientBase__36d07 {
+    display: none;
+}
+
+.typing_b88801 {
+    position: absolute;
+    margin-top: 80px;
+}
+
+.channelTextArea_f75fb0 {
+    margin-bottom: 26px;
 }
