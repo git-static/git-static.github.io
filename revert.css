@@ -1,6 +1,7 @@
 .theme-dark:not(html.custom-theme-background, :has(#clientThemeVars)) {
     --background-primary: var(--background-base-low);
     --background-secondary: var(--background-base-lower);
+    --custom-channel-textarea-text-area-height: 52px;
     // --background-base-lowest: var(--background-secondary);
     --bg-base-tertiary: var(--background-tertiary);
     --custom-channel-members-bg: var(--background-secondary);
@@ -1758,11 +1759,11 @@
 }
 
 .attachButton__74017 {
-    padding: 10px 10px !important;
+    padding: 8px 8px !important;
 }
 
 .slateContainer_ec4baf {
-    margin-left: 4px;
+    margin-left: 2px;
 }
 
 .text_b88801 {
@@ -1787,9 +1788,14 @@
 }
 
 .chatContent_f75fb0 > .scroller__36d07 {
-    margin-bottom: -36px;
+    margin-bottom: -28px;
 }
 
 .chatContent_f75fb0 > .scrollerContent__36d07 {
-    padding-bottom: 30px;
+    padding-bottom: 28px;
 }
+
+.textArea__74017 {
+    height: 52px !important;
+}
+
