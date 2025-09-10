@@ -1787,15 +1787,16 @@
     margin-bottom: 24px;
 }
 
-.chatContent_f75fb0 .scroller__36d07 {
-    margin-bottom: -28px;
-}
-
-.chatContent_f75fb0 .scrollerContent__36d07 {
-    padding-bottom: 28px;
-}
-
 .textArea__74017 {
     height: 52px !important;
 }
 
+.scroller__36d07 {
+    margin-bottom: -28px  !important;
+    padding-bottom: 28px !important;
+}
+
+.align-chat-input .scroller__629e4 {
+    padding-bottom: 32px !important;
+    margin-bottom: -16px !important;
+}
