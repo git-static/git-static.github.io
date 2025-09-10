@@ -1779,9 +1779,17 @@
 
 .typing_b88801 {
     position: absolute;
-    margin-top: 80px;
+    margin-top: 79px;
 }
 
 .channelTextArea_f75fb0 {
-    margin-bottom: 26px;
+    margin-bottom: 24px;
+}
+
+.chatContent_f75fb0 > .scroller__36d07 {
+    margin-bottom: -36px;
+}
+
+.chatContent_f75fb0 > .scrollerContent__36d07 {
+    padding-bottom: 30px;
 }
