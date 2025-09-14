@@ -1799,11 +1799,15 @@
 }
 
 .panelTitleContainer__37e49 .title_b6c092 {
-    margin-bottom: -2px !important;
+    /* margin-bottom: -2px !important; */
     font-size: 14px;
 }
 
 .info__5dec7 .title_b6c092 {
+    font-size: 14px;
+}
+
+.info__8c6c2 .title_b6c092 {
     font-size: 14px;
 }
 
