@@ -1780,15 +1780,12 @@
 
 .typing_b88801 {
     position: absolute;
-    margin-top: 76px;
+    top: auto !important;
+    bottom: 0px !important;
 }
 
 .channelTextArea_f75fb0 {
     margin-bottom: 24px;
-}
-
-.textArea__74017 {
-    height: 52px !important;
 }
 
 .scroller__36d07 {
@@ -1811,10 +1808,4 @@
 
 .title_bb0d86 {
     display: none;
-}
-
-.form_f75fb0:has(.replyBar__841c8) {
-    .typing_b88801 {
-        margin-top: 110px !important
-    }
 }
