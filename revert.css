@@ -1840,3 +1840,8 @@
 .align-chat-input .button__24af7:not(.noHover__24af7) {
     transition-duration: 10000000000000000s !important;
 }
+
+.panelSubtextContainer__37e49 .hovered__0263c {
+    padding-top: 1px;
+}
+
