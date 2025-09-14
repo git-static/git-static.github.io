@@ -1799,8 +1799,12 @@
 }
 
 .panelTitleContainer__37e49 .title_b6c092 {
-    /* margin-bottom: -2px !important; */
+    margin-bottom: -2px !important;
     font-size: 14px;
+}
+
+.panelSubtextContainer__37e49 {
+    margin-bottom: -2px;
 }
 
 .info__5dec7 .title_b6c092 {
