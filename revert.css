@@ -1254,7 +1254,7 @@
         z-index: 102;
     }
     .inviteToolbar__133bf > .clickable__9293f.iconWrapper__9293f {
-        right: 70px;
+        right: 78px;
     }
     .winButtons_c38106 {
         position: fixed;
@@ -1710,16 +1710,26 @@
 }
 
 .base_c48ade:has(.focusedVideo_a21736) {
-    .trailing_c38106 {
-        display: none;
-    }
+.bar_c38106 .trailing_c38106 .clickable_c99c29 {
+    display: none;
 }
+.bar_c38106 .trailing_c38106 .anchor_edefb8 {
+    display: none;
+}
+.bar_c38106 .trailing_c38106 .button__85643  {
+    display: none;
+}}
 
 .base_c48ade:has(.callContainer_cb9592) {
-    .trailing_c38106 {
-        display: none;
-    }
+.bar_c38106 .trailing_c38106 .clickable_c99c29 {
+    display: none;
 }
+.bar_c38106 .trailing_c38106 .anchor_edefb8 {
+    display: none;
+}
+.bar_c38106 .trailing_c38106 .button__85643  {
+    display: none;
+}}
 
 .base_c48ade:has(.callContainer_cb9592) {
     .searchBar__97492 {
@@ -1845,3 +1855,21 @@
     padding-top: 1px;
 }
 
+.inviteToolbar__133bf > .clickable__9293f.iconWrapper__9293f svg {
+    height: 24px;
+    width: 24px;
+}
+
+.app_a3002d:has(.updateIconForeground__49676) {
+    .inviteToolbar__133bf > .clickable__9293f.iconWrapper__9293f {
+        right: 116px;
+    }
+}
+
+.button_a22cb0 {
+    margin-bottom: 16px;
+}
+
+.md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0 {
+    padding: calc(15px) calc(16px - 0px);
+}
