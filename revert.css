@@ -627,7 +627,7 @@
             background-color: rgba(0, 0, 0, 0);
             border-top-left-radius: unset;
             border-top-right-radius: unset;
-            border-bottom: unset;
+            border-bottom: 1px solid var(--border-faint);
         }
     }
     .toolbar__9293f > .iconWrapper__9293f {
