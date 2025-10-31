@@ -172,7 +172,7 @@
         height: 16px;
     }
     .buttons__37e49 {
-        gap: 1px;
+        gap: 4px;
     }
 
     .listItem__650eb {
@@ -1910,4 +1910,8 @@
 
 .attachButton__74017 .icon__4d3a9 {
     padding: 6px 6px 6px 6px;
+}
+
+.buttonChevron__37e49 {
+    display: none !important;
 }
