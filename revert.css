@@ -10,6 +10,8 @@
     // --modal-footer-background: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
     --checkbox-background-checked: var(--blurple);
     --custom-app-top-bar-height: 22px;
+    --spacing-12: 12px;
+    --spacing-8: 8px;
 }
 
 .platform-web, .platform-linux {
@@ -1914,9 +1916,4 @@
 
 .buttonChevron__37e49 {
     display: none !important;
-}
-
-.top_aa8da2 .item_aa8da2 {
-    margin-bottom: -5px;
-    padding-bottom: 7px;
 }
