@@ -618,7 +618,7 @@
     .base__5e434 .sidebar__5e434 > .panels__5e434 {
         grid-area: panels;
         position: static;
-        width: auto;
+        width: calc(var(--custom-guild-sidebar-width) - 72px);
         inset: auto;
         border-bottom-right-radius: 0px;
         border-bottom-left-radius: 0px;
