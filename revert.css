@@ -1386,10 +1386,16 @@
     display: none;
 }
 
+:has(.iconForeground_f1f2b1) {
+    --trailing-width1: 40px;
+}
+
 :has(.updateIconForeground__49676) {
-    .searchBar__97492 {
-        margin-right: 110px !important;
-    }
+    --trailing-width2: 40px;
+}
+
+.searchBar__97492 {
+    margin-right: calc(80px + var(--trailing-width1) + var(--trailing-width2)) !important;
 }
 
 .platform-win .layer__960e4 {
