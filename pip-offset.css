@@ -7,3 +7,13 @@
         left: -200px;
     }
 }
+
+.layerContainer__59d0d:has(.pictureInPicture__6341f) {
+    left: 0px;
+}
+
+.appMount__51fd7:has(.members_c8ffbb) {
+    .layerContainer__59d0d:has(.pictureInPicture__6341f) {
+        left: -200px;
+    }
+}
