@@ -1,0 +1,9 @@
+._59d0d7075b521375-layerContainer:has(._6341f5794d35fb69-pictureInPicture) {
+    left: 0px;
+}
+
+._51fd70792ee2e563-appMount:has(.c8ffbb79449f399c-members) {
+    ._59d0d7075b521375-layerContainer:has(._6341f5794d35fb69-pictureInPicture) {
+        left: -200px;
+    }
+}
