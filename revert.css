@@ -55,7 +55,7 @@
             top: 35px;
         }
     }
-    ._974928fe84ca9647-searchBar {
+    .c322aadb96ff59c9-searchBar {
        margin-right: 80px;
     }
 }
@@ -483,7 +483,7 @@
     ._496769951eb140fe-search {
         margin: 0 8px;
     }
-    ._974928fe84ca9647-searchBar {
+    .c322aadb96ff59c9-searchBar {
         // background: var(--bg-overlay-3, var(--background-tertiary));
         padding: 0 2px;
         height: 24px;
@@ -1403,7 +1403,7 @@ body {
     width: 10px;
 }
 
-._974928fe84ca9647-searchBar {
+.c322aadb96ff59c9-searchBar {
     margin-right: calc(80px + var(--trailing-width1) + var(--trailing-width2)) !important;
 }
 
@@ -1685,7 +1685,7 @@ body {
 }
 
 ._5e434347c823b592-base:has(._01ae244280823725-resizeHandle) {
-    ._974928fe84ca9647-searchBar {
+    .c322aadb96ff59c9-searchBar {
         margin-right: 0px;
     }
     .c38106a3f0c3ca76-trailing {
@@ -1764,7 +1764,7 @@ body {
 }}
 
 ._5e434347c823b592-base:has(.cb9592ad77576717-callContainer) {
-    ._974928fe84ca9647-searchBar {
+    .c322aadb96ff59c9-searchBar {
         margin-right: 0px !important;
     }
 }
