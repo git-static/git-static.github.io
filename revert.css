@@ -1267,7 +1267,7 @@
         z-index: 102;
     }
     ._133bf5eea8e33a34-inviteToolbar > ._9293f6b2fc12398a-clickable._9293f6b2fc12398a-iconWrapper {
-        right: 78px;
+        /* right: 78px; */
     }
     .c38106a3f0c3ca76-winButtons {
         position: fixed;
@@ -1387,9 +1387,14 @@
     display: none;
 }
 
+.e6e74fd4d1221f53-button {
+    width: 10px;
+}
+
 body {
     --trailing-width1: 0px;
     --trailing-width2: 0px;
+    --trailing-width3: 0px;
 }
 
 :has(.f1f2b13d058fc458-iconForeground) {
@@ -1400,12 +1405,18 @@ body {
     --trailing-width2: 40px;
 }
 
-.e6e74fd4d1221f53-button {
-    width: 10px;
+:has(._85643a485899904b-button[aria-label="DevTools"]) {
+    --trailing-width3: 38px;
 }
 
+/* gap = 8px, base = 24 + gap + 30 */
+
 .c322aadb96ff59c9-searchBar {
-    margin-right: calc(80px + var(--trailing-width1) + var(--trailing-width2)) !important;
+    margin-right: calc(calc(24px + 8px + 30px + 10px) + var(--trailing-width1) + var(--trailing-width2) + var(--trailing-width3)) !important;
+}
+
+._133bf5eea8e33a34-inviteToolbar {
+    margin-right: calc(calc(24px + 8px + 30px + 10px) + var(--trailing-width1) + var(--trailing-width2) + var(--trailing-width3)) !important;
 }
 
 .platform-win ._960e4207cea8323e-layer {

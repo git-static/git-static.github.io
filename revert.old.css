@@ -55,7 +55,7 @@
             top: 35px;
         }
     }
-    .searchBar__97492 {
+    .searchBar_c322aa {
        margin-right: 80px;
     }
 }
@@ -483,7 +483,7 @@
     .search__49676 {
         margin: 0 8px;
     }
-    .searchBar__97492 {
+    .searchBar_c322aa {
         // background: var(--bg-overlay-3, var(--background-tertiary));
         padding: 0 2px;
         height: 24px;
@@ -1266,7 +1266,7 @@
         z-index: 102;
     }
     .inviteToolbar__133bf > .clickable__9293f.iconWrapper__9293f {
-        right: 78px;
+        /* right: 78px; */
     }
     .winButtons_c38106 {
         position: fixed;
@@ -1386,21 +1386,37 @@
     display: none;
 }
 
+.button_e6e74f {
+    width: 10px;
+}
+
 body {
     --trailing-width1: 0px;
     --trailing-width2: 0px;
+    --trailing-width3: 0px;
 }
 
 :has(.iconForeground_f1f2b1) {
-    --trailing-width1: 40px;
+    --trailing-width1: 38px;
 }
 
 :has(.updateIconForeground__49676) {
-    --trailing-width2: 40px;
+    --trailing-width2: 38px;
 }
 
-.searchBar__97492 {
-    margin-right: calc(80px + var(--trailing-width1) + var(--trailing-width2)) !important;
+:has(.button__85643[aria-label="DevTools"]) {
+    --trailing-width3: 38px;
+}
+
+
+/* gap = 8px, base = 24 + gap + 30 */
+
+.searchBar_c322aa {
+    margin-right: calc(calc(24px + 8px + 30px + 10px) + var(--trailing-width1) + var(--trailing-width2) + var(--trailing-width3)) !important;
+}
+
+.inviteToolbar__133bf {
+    margin-right: calc(calc(24px + 8px + 30px + 10px) + var(--trailing-width1) + var(--trailing-width2) + var(--trailing-width3)) !important;
 }
 
 .platform-win .layer__960e4 {
@@ -1681,7 +1697,7 @@ body {
 }
 
 .base__5e434:has(.resizeHandle__01ae2) {
-    .searchBar__97492 {
+    .searchBar_c322aa {
         margin-right: 0px;
     }
     .trailing_c38106 {
@@ -1760,7 +1776,7 @@ body {
 }}
 
 .base__5e434:has(.callContainer_cb9592) {
-    .searchBar__97492 {
+    .searchBar_c322aa {
         margin-right: 0px !important;
     }
 }
